@@ -13,7 +13,6 @@ This project analyzes immune cell population data from blood samples, comparing 
 - Statistical comparison of cell populations between response groups
 - Visualization of immune cell profile differences
 - Database schema design for immunology studies
-- Complete Jupyter Notebook analysis pipeline
 
 
 ## Getting Started
