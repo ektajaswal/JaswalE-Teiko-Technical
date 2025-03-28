@@ -1,6 +1,6 @@
 # Immune Cell Population Analysis - Technical Assignment
 
-![Immune Cell Visualization](output/cd4_t_cell_response_comparison.png)  
+![Immune Cell Visualization](cd4_t_cell_response_comparison.png)  
 *Example visualization comparing CD4 T cell percentages between responders and non-responders*
 
 ## Project Overview
@@ -40,13 +40,17 @@ This project analyzes immune cell population data from blood samples, comparing 
    ```bash
    git clone https://github.com/ektajaswal/JaswalE-Teiko-Technical.git
    cd JaswalE-Teiko-Technical
+   pip install -r requirements.txt
+
 2. Install required packages:
+   ```bash
    pip install -r requirements.txt
 
 ### Running the Analysis
 1. Launch Jupyter Notebook:
+   ```bash
     jupyter notebook
-2. Open and run cell_population_analysis.ipynb
+3. Open and run cell_population_analysis.ipynb
 
 ### Key Findings
 1. Significant differences found in these cell populations:
@@ -58,6 +62,7 @@ This project analyzes immune cell population data from blood samples, comparing 
     - Balanced sex distribution (4 male, 3 female)
 ### Database Design
 The project includes a proposed database schema:
+    
     CREATE TABLE Projects (
         project_id VARCHAR(20) PRIMARY KEY,
         project_name VARCHAR(100)
@@ -71,6 +76,7 @@ The project includes a proposed database schema:
         sex CHAR(1)
         -- Additional fields...
     );
+    
     -- More tables defined in the notebook
 ### Output Files
 1. Processed Data:
