@@ -1,7 +1,7 @@
 # Immune Cell Population Analysis - Technical Assignment
 
 ![Immune Cell Visualization](cd4_t_cell_response_comparison.png)  
-*Example visualization comparing CD4 T cell percentages between responders and non-responders*
+*Example visual comparing CD4 T cell percentages between responders and non-responders*
 
 ## Project Overview
 
@@ -15,16 +15,6 @@ This project analyzes immune cell population data from blood samples, comparing 
 - Database schema design for immunology studies
 - Complete Jupyter Notebook analysis pipeline
 
-## Repository Structure
-/JaswalE-Teiko-Technical/
-├── data/ # Input data files
-│ └── cell-count.csv # Original dataset
-│ └── cell_population_analysis.ipynb # Main analysis notebook
-├── output/ # Generated files
-│ ├── cell_count_percentages.csv # Processed data
-│ └── *.png # Visualization images
-├── README.md # This file
-└── requirements.txt # Python dependencies
 
 ## Getting Started
 
